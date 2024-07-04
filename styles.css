@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #ecf755;
+  --primary-color-dark: #9333ea;
+  max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+#gamename{
+  position: fixed;
+  top: 25%;
+  
+}
+#loadinggif{
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 1vh;
+
+
+}
+.welcome {
+  position: fixed;
+  justify-items: auto;
+} 
+  #preloader{   
+    background:  #00000025 url(assets/wallpaper-preloader.jpg) no-repeat center center;   
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+  #preloader img{
+    margin: auto;
+    margin-top: 25%;
+    padding: auto;
+    width: min(20rem, 90%);
+    display: grid;
+    place-items: center;
+    filter: drop-shadow(20px 30px 70px rgba(0, 0, 0, 0.719));
+    border-radius: 50%;
+    
+
+ 
+}.fab1{
+position: fixed;
+left: 0;
+bottom: 40px;
+width: 100%;
+color: rgb(0, 0, 0);
+text-align: center;
+filter: drop-shadow(20px 30px 70px rgba(0, 0, 0, 0.719));
+}
+.fa-brands{
+  font-size: 20px;
+  letter-spacing: 20px;
+}
+#preloader p{
+  position: fixed;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  color: grey;
+  text-align: center;
+  font-weight: 200;
+}
+
+@media (width < 750px) {
+
+    
+}
